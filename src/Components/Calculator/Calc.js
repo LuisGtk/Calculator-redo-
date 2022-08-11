@@ -1,6 +1,7 @@
 
 export default function Calc() {
-      /* ADDING STATE */
+
+    
 return(
     // making calc
     <div className="calculator">

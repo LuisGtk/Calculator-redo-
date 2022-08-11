@@ -1,5 +1,6 @@
 import './App.css';
-// import Calc from './Components/Calculator/Calc';
+import Calc from './Components/Calculator/Calc';
+import { Routes , Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -8,8 +9,20 @@ function App() {
         React-Calculator
       </header>
 
+
+
+
+
+
+
+
+{/* switch */}
+      <main>
+        <Routes>
+          <Route path='/' element={<Calc />} />
+        </Routes>
+      </main>
     </div>
   );
 }
-
 export default App;
