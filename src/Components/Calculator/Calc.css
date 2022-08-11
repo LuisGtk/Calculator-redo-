@@ -1,0 +1,10 @@
+@media only screen and (min-width: 600px) {}
+
+.calculator {
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(73, 73, 73);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
