@@ -11,7 +11,6 @@ export default function Calc() {
     }
 // functionality for number buttons
     function handleClick(event) {
-        //console.log(event.target.innerText)
         getData(data + event.target.innerText)
     }
 //clear button functionality
