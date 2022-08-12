@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 
 export default function Calc() {
     const [data, getData] = useState([])
-
+    const [total, setTotal] = useState("");
     const fetchData = () => {
         fetch("https://api.mathjs.org/v4/?expr=" + encodeURIComponent(data))
             .then((response) => response.json())
@@ -17,6 +17,7 @@ export default function Calc() {
 //clear button functionality
 function handleClear(event) {
     getData('')
+    setTotal('')
 }
 
 

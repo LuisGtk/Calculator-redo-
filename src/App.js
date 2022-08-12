@@ -6,7 +6,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>React-Calculator</h1>
+        <Link to="/">
+          <h1>React-Calculator</h1>
+        </Link>
+
       </header>
       <Link to="/Calculator">
         <button className='calc'>Calculator</button>
