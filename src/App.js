@@ -6,19 +6,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-
         <h1>React-Calculator</h1>
-        
-    </header>
-          <Link to="/Calculator">
-          <p id='calc'>Calculator</p>
-        </Link>
-      {/* switch components*/ }
-  <main>
-    <Routes>
-      <Route path='/Calculator' element={<Calc />} />
-    </Routes>
-  </main>
+      </header>
+      <Link to="/Calculator">
+        <button className='calc'>Calculator</button>
+      </Link>
+      {/* switch components*/}
+      <main>
+        <Routes>
+          <Route path='/Calculator' element={<Calc />} />
+        </Routes>
+      </main>
     </div >
   );
 }

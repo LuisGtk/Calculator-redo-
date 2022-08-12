@@ -5,7 +5,7 @@
     .calculator {
         margin: auto;
         padding: 20px;
-        background-color: rgb(55, 167, 175);
+        background-color: rgb(41, 133, 139);
         width: 80%;
         border-radius: 5%;
     }
@@ -35,27 +35,31 @@
     margin: auto;
     padding: 20px;
     background-color: rgb(55, 167, 175);
-    width: 40%;
-    border-radius: 5%;
+    width: 30%;
+    border-radius: 10%;
+    margin-top: 5%;
 }
 .display {
     display: flex;
     justify-content: center;
-    background-color: rgba(179, 175, 175, 0.795);
+    background-color: rgba(190, 186, 186, 0.669);
     outline: solid;
     font-size: 24px;
 }
 
 .answer {
     background-color: rgb(55, 167, 175);
-    background-color: rgba(179, 175, 175, 0.795);
+    background-color: rgba(179, 175, 175, 0.588);
     outline: solid;
     width: 40%;
 }
 .layout{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    padding-top: 10%;
+
 }
-button{
-    font-size:200% ;
+
+.numbers{
+    padding: 15%;
 }
