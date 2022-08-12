@@ -20,6 +20,7 @@ function App() {
       {/* switch components*/}
       <main>
         <Routes>
+        <Route path="/" element={''} />
           <Route path='/Facts' element={<Facts />} />
           <Route path='/Calculator' element={<Calc />} />
         </Routes>
