@@ -28,15 +28,8 @@ function handleClear(event) {
             <div className="display">
                 <p>{data}</p>
             </div>
-
-            <div className="answer">
-                <p> this will be the answer to the equation </p>
-
-            </div>
-
             <div className='layout'>
                 <button className='numbers' onClick={handleClear}>Clear</button>
-                <button className='numbers'>+/-</button>
                 <button className='numbers'onClick={handleClick}>%</button>
                 <button className='numbers'onClick={handleClick}>/</button>
 
@@ -57,7 +50,7 @@ function handleClear(event) {
 
                 <button className='numbers'onClick={handleClick}>0</button>
                 <button className='numbers'onClick={handleClick}>.</button>
-                <button className='numbers'onClick={getData}>=</button>
+                <button className='numbers'onClick={fetchData}>=</button>
             </div >
         </div >
     )
