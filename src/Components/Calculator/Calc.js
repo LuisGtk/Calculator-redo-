@@ -14,7 +14,10 @@ export default function Calc() {
         //console.log(event.target.innerText)
         getData(data + event.target.innerText)
     }
-
+//clear button functionality
+function handleClear(event) {
+    getData('')
+}
 
 
     return (
@@ -31,7 +34,7 @@ export default function Calc() {
             </div>
 
             <div className='layout'>
-                <button className='numbers'>Clear</button>
+                <button className='numbers' onClick={handleClear}>Clear</button>
                 <button className='numbers'>+/-</button>
                 <button className='numbers'onClick={handleClick}>%</button>
                 <button className='numbers'onClick={handleClick}>/</button>
