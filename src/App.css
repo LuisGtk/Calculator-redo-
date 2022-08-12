@@ -21,9 +21,10 @@
 
 
 /* RESPONSIVE WEB  */
-body{
+body {
   background-color: #557ed0b0;
 }
+
 .App {
   text-align: center;
 }
@@ -43,13 +44,31 @@ a {
   color: white;
   font-size: 150%;
 }
-.calc{
-  font-size:100% ;
+
+.calc {
+  font-size: 100%;
   margin-top: 5%;
   border-radius: 15%;
   padding: 3%;
   cursor: pointer;
 }
+
 .calc:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.facts {
+  font-size: 100%;
+  margin-top: 5%;
+  border-radius: 15%;
+  padding: 3%;
+  cursor: pointer;
+}
+
+.facts:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+button{
+  margin-left: 5%;
 }
